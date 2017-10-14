@@ -8,11 +8,11 @@ def display_board(board)
   row3 = [" #{board[6]} ", "|", " #{board[7]} ", "|", " #{board[8]} "]
   line = "-----------"
 
-  print row[0]; print row[1]; print row[2]; print row[3]; puts row[4]
+  print row1[0]; print row1[1]; print row1[2]; print row1[3]; puts row1[4]
   puts line
-  print row[0]; print row[1]; print row[2]; print row[3]; puts row[4]
+  print row2[0]; print row2[1]; print row2[2]; print row2[3]; puts row2[4]
   puts line
-  print row[0]; print row[1]; print row[2]; print row[3]; puts row[4]
+  print row3[0]; print row3[1]; print row3[2]; print row3[3]; puts row3[4]
 end
 
 #display_board
